@@ -1,0 +1,15 @@
+git config --global user.name "username de votre compte github"
+git config --global  user.email "email de votre compte github"
+git config --global user.name "username de votre compte github"
+git config --global  user.email "email de votre compte github"
+git init 
+git add . 
+git commit -m "premiere commit"
+git branch -M main
+git remote add origin  https://github.com/sorogueye77-cell/onlonj.git
+git remote set-url origin  https://github.com/sorogueye77-cell/onlonj.git
+git push origin  HEAD c'est la meme chose git push -u origin main
+git branch
+git checkout 
+git pull 
+git branch -r
